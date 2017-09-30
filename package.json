@@ -1,0 +1,25 @@
+{
+  "name": "crypto_overview",
+  "version": "1.0.0",
+  "description": "A simple tool to pull together different meta data sources for crypto currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlingel/CryptoOverview.git"
+  },
+  "author": "Martin Keiblinger",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/schlingel/CryptoOverview/issues"
+  },
+  "homepage": "https://github.com/schlingel/CryptoOverview#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "google-trends-api": "^4.2.2",
+    "moment": "^2.18.1",
+    "request": "^2.83.0"
+  }
+}
